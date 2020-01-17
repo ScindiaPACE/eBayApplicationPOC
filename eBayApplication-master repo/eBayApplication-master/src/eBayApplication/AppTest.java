@@ -49,6 +49,7 @@ public class AppTest extends UiMap {
 		sPassword = ExcelUtils.getCellData(1, 2);
 		sIncorrectPassword =ExcelUtils.getCellData(2, 2);
 	}
+
 		
 	
 	@BeforeSuite
