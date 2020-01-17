@@ -129,7 +129,7 @@ public class AppTest extends UiMap {
 		loginObj.signOut();
 		test.log(LogStatus.PASS, "SignOut successful");
 		test.log(LogStatus.PASS, "TEST PASSED");
-		}catch(Exception e ) {
+		}catch(Exception e ) {	
 			test.log(LogStatus.FAIL, "SORRY! TEST FAILED");
 			System.out.println("Error in Main flow Test Page");
 		}	
@@ -148,4 +148,5 @@ public class AppTest extends UiMap {
 			System.out.println("Error in Main flow Test Page");
 		}	
 	}
+	
 }
