@@ -53,8 +53,8 @@ public class AppTest extends UiMap {
 	
 	@BeforeSuite
 	public void beforeSuite() {
-		extent = new ExtentReports("C:\\Users\\SCINDIA\\eclipse-workspace\\eBayApplication\\test-output\\EbayExtentReport.html",true);
-		extent.loadConfig(new File("C:\\Users\\SCINDIA\\eclipse-workspace\\eBayApplication\\extent-config.xml"));
+		extent = new ExtentReports("C:\\Users\\SCINDIA\\Repo\\eBayApplication-master repo\\eBayApplication-master\\test-output\\EbayExtentReport.html",true);
+		extent.loadConfig(new File("C:\\Users\\SCINDIA\\Repo\\eBayApplication-master repo\\eBayApplication-master\\extent-config.xml"));
 	}
 	
 	@BeforeMethod
@@ -126,7 +126,7 @@ public class AppTest extends UiMap {
 		loginObj.tapLoginButton();
 		loginObj.enterCredentials(sUserName,sPassword);
 		test.log(LogStatus.PASS, "Login successful");
-		loginObj.signOut();
+		//loginObj.signOut();
 		test.log(LogStatus.PASS, "SignOut successful");
 		test.log(LogStatus.PASS, "TEST PASSED");
 		}catch(Exception e ) {	

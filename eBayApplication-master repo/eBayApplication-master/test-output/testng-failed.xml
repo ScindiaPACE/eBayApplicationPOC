@@ -6,8 +6,9 @@
       <class name="eBayApplication.AppTest">
         <methods>
           <include name="beforeMethod"/>
+          <include name="loginTest"/>
           <include name="afterMethod"/>
-          <include name="checkOutTest"/>
+          <include name="failTest"/>
           <include name="beforeSuite"/>
           <include name="tearDown"/>
         </methods>
