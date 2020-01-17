@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="69811" started-at="2020-01-16T21:18:09 IST" finished-at="2020-01-16T21:19:19 IST">
+  <suite name="Default suite" duration-ms="60483" started-at="2020-01-17T13:29:02 IST" finished-at="2020-01-17T13:30:02 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="69811" started-at="2020-01-16T21:18:09 IST" finished-at="2020-01-16T21:19:19 IST">
+    <test name="Default test" duration-ms="60483" started-at="2020-01-17T13:29:02 IST" finished-at="2020-01-17T13:30:02 IST">
       <class name="eBayApplication.AppTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:eBayApplication.AppTest@79d8407f]" name="beforeSuite" is-config="true" duration-ms="131" started-at="2020-01-16T21:18:09 IST" finished-at="2020-01-16T21:18:09 IST">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:eBayApplication.AppTest@79d8407f]" name="beforeSuite" is-config="true" duration-ms="123" started-at="2020-01-17T13:29:02 IST" finished-at="2020-01-17T13:29:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:eBayApplication.AppTest@79d8407f]" name="beforeMethod" is-config="true" duration-ms="39582" started-at="2020-01-16T21:18:10 IST" finished-at="2020-01-16T21:18:49 IST">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:eBayApplication.AppTest@79d8407f]" name="beforeMethod" is-config="true" duration-ms="32150" started-at="2020-01-17T13:29:02 IST" finished-at="2020-01-17T13:29:34 IST">
           <params>
             <param index="0">
               <value>
@@ -22,15 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkOutTest()[pri:2, instance:eBayApplication.AppTest@79d8407f]" name="checkOutTest" duration-ms="29572" started-at="2020-01-16T21:18:49 IST" finished-at="2020-01-16T21:19:19 IST">
+        <test-method status="PASS" signature="checkOutTest()[pri:2, instance:eBayApplication.AppTest@79d8407f]" name="checkOutTest" duration-ms="27483" started-at="2020-01-17T13:29:34 IST" finished-at="2020-01-17T13:30:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkOutTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:eBayApplication.AppTest@79d8407f]" name="afterMethod" is-config="true" duration-ms="617" started-at="2020-01-16T21:19:19 IST" finished-at="2020-01-16T21:19:19 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:eBayApplication.AppTest@79d8407f]" name="afterMethod" is-config="true" duration-ms="809" started-at="2020-01-17T13:30:01 IST" finished-at="2020-01-17T13:30:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:eBayApplication.AppTest@79d8407f]" name="tearDown" is-config="true" duration-ms="149" started-at="2020-01-16T21:19:19 IST" finished-at="2020-01-16T21:19:19 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:eBayApplication.AppTest@79d8407f]" name="tearDown" is-config="true" duration-ms="143" started-at="2020-01-17T13:30:02 IST" finished-at="2020-01-17T13:30:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

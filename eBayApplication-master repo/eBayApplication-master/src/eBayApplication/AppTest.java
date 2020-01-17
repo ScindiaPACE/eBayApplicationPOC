@@ -81,26 +81,26 @@ public class AppTest extends UiMap {
 	}
 
 		
-	/*@Test(priority =3)
+	@Test(priority =3)
 	public void loginTest() {
 		try {
-		//loginObj.verifyloginButton();
-		//loginObj.tapLoginButton();
-		//loginObj.enterCredentials(sUserName,sPassword);
+		loginObj.verifyloginButton();
+		loginObj.tapLoginButton();
+		loginObj.enterCredentials(sUserName,sPassword);
 		test.log(LogStatus.PASS, "Login successful");
 		test.log(LogStatus.PASS, "TEST PASSED");
 		}catch(Exception e ) {
 			test.log(LogStatus.FAIL, "SORRY! TEST FAILED");
 			System.out.println("Error in Main flow Test Page");
 		}	
-	}*/
+	}
 	
 	@Test(priority =2)
 	public void checkOutTest() throws Exception {
 		try {
-		//loginObj.verifyloginButton();
-		//loginObj.tapLoginButton();
-		//loginObj.enterCredentials(sUserName,sPassword);
+		loginObj.verifyloginButton();
+		loginObj.tapLoginButton();
+		loginObj.enterCredentials(sUserName,sPassword);
 		test.log(LogStatus.PASS, "Login successfuls");
 		searchObj.searchProduct(sProductName);
 		test.log(LogStatus.PASS, "Search result obtained");
@@ -119,7 +119,8 @@ public class AppTest extends UiMap {
 		}		
 	}
 	
-	/*@Test(priority =1)
+	
+	@Test(priority =1)
 	public void signOutTest() {
 		try {
 		loginObj.tapLoginButton();
@@ -146,5 +147,5 @@ public class AppTest extends UiMap {
 			test.log(LogStatus.FAIL, "SORRY! TEST FAILED",testMethodName);
 			System.out.println("Error in Main flow Test Page");
 		}	
-	}*/
+	}
 }

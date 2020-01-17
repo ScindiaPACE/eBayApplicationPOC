@@ -18,6 +18,7 @@ public class checkOutPage extends UiMap {
 		waitTillPageload(Item_TXT);
 		//scrollToElement(OrderTotal_TXT);
         System.out.print("CheckOut page validation done");
+        System.out.print("Payment is needed to proceed further");
 	}
 	
 }
